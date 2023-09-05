@@ -1,0 +1,2513 @@
+.tech{
+    background-color: #F7F4F4;
+}
+
+section{
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+section > div{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+
+/* 헤더 css */
+
+.serve_nav{
+    display: none
+}
+.intro_nav{
+    display: none;
+}
+.intro{
+    display: none;
+}
+
+.serve{
+    background-color: #F7F4F4;
+}
+
+.serve header{
+    display: flex;
+}
+
+.serve .menu_wrap{
+    width: 40%;
+}
+
+.serve .gnb li a{
+    font-size: 22px;
+    position: relative;
+    font-family: 'SF_HambakSnow';
+}
+
+.serve .gnb li:last-child a{
+    background-color: #1E438A;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 12px;
+}
+
+.serve .gnb li:last-child a::before{
+    display: none;
+}
+
+.serve .menu_wrap .gnb li:last-child:hover a{
+    color: #fff;
+}
+
+.tech_banner{
+    background: linear-gradient(  #F7F4F4, #EEE2E2);
+    padding-top: 50px;
+}
+
+.banner_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0 130px;
+    height: 54vh;
+}
+
+.banner_box .left{
+    padding: 0 15px;
+}
+
+
+.banner_box .left p{
+    white-space: pre-line;
+}
+
+.video_banner .banner_box .left p{
+    white-space: inherit;
+}
+
+.banner_box .left p:first-child{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.banner_box .left p:nth-child(2){
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.banner_box .left p:nth-child(3){
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: 'Chosun';
+    line-height: 1.3;
+}
+
+.banner_box .left a{
+    background-color: #1E438A;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 12px;
+    font-family: 'SF_HambakSnow';
+    font-size: 22px;
+}
+
+
+
+.banner_box .right{
+    width: 40%;
+}
+
+.logo_section{
+    overflow: hidden;
+    padding: 80px 0 150px;
+}
+
+.logo_section .left{
+    animation: left 100s infinite linear alternate;
+    will-change: transform;
+    white-space: nowrap;
+    transform: translateX(0%)
+}
+
+.logo_section .left .logo{
+    width: 200px;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.logo_section .left .logo img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+@keyframes left {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.logo_section .right {
+    animation: right 100s infinite linear alternate;
+    will-change: transform;
+    white-space: nowrap;
+    transform: translateX(-100%);
+    margin-top: 80px;
+}
+
+@keyframes right {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.logo_section .right .logo{
+    width: 200px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.logo_section .right .logo img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+
+.tech_wrap .tech_title{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tech_wrap .tech_title p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'SF_HambakSnow';
+}
+
+
+.tech_wrap .icon_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:150px;
+}
+
+.tech_wrap .icon_list .flex{
+    display: flex;
+}
+
+.tech_wrap .flex_icon{
+    width: 90px;
+    height: 90px;
+    /* background-color: #000; */
+    margin: 10px auto;
+    margin-bottom: 25px;
+}
+
+.tech_wrap .icon_box img{
+    height: 100%;
+    width: 100%;
+}
+
+.tech_wrap .icon{
+    margin: 0 70px 90px;
+}
+
+.tech_wrap .icon .title {
+    text-align: center;
+}
+
+.tech_wrap .icon .title p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* .process{
+    background-color: #EEE2E2;
+} */
+
+.tech_process{
+    background-color: #EEE2E2;
+}
+
+.video_process{
+    background-color: #FFFCDC;
+}
+
+.process_section .process_box{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.process_section .process_title{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.process_section .process_title p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'SF_HambakSnow';
+}
+
+
+.process_section .process_list{
+    padding: 100px 0;
+}
+
+
+
+
+
+.process_section .process_list .img_box img{
+    width: 100%;
+}
+
+.process_section .process_list .text_box{
+    /* width: 50%; */
+}
+
+
+.process_section .process_list .text_box p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+    word-break: keep-all;
+}
+
+.process_section .list2 .text_box p:first-child{
+    text-align: right;
+}
+.process_section .list4 .text_box p:first-child{
+    text-align: right;
+}
+
+.process_section .process_list .text_box p:first-child{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 9;
+}
+
+.process_section .process_list .text_box p:first-child::before {
+    position: absolute;
+    font-size: 10rem;
+    left: -78px;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: -5px;
+    opacity: .15;
+    color: #1E438A;
+    bottom: -12px;
+}
+
+.process_section .list1 .text_box p:first-child::before{
+    content: "01";
+}
+
+.process_section .list2 .text_box p:first-child::before{
+    content: "02";
+    right: -75px;
+}
+
+.process_section .list3 .text_box p:first-child::before{
+    content: "03";
+}
+
+.process_section .list4 .text_box p:first-child::before{
+    content: "04";
+    right: -75px;
+}
+
+.process_section .list5 .text_box p:first-child::before{
+    content: "05";
+}
+
+/* top 버튼 */
+.top{
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.top a{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.top a::after{
+    content: "";
+    position: absolute;
+    background: url(../images/arrow-top.svg) no-repeat center / contain;
+    width: 30px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top a:hover{
+    cursor: pointer;
+}
+
+
+.video{
+    background-color: #FFFEF5;
+}
+
+.video_banner{
+    background:linear-gradient(#FFFEF5, #FFFCDC);
+    padding-top: 50px;
+}
+
+.video_banner .banner_box{
+    display: flex;
+
+}
+
+
+.video_banner .right{
+    width: 40%;
+}
+
+.video .video_list .list_title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.video .video_list .list_title p{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'SF_HambakSnow';
+}
+
+
+.video .video_list .list_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.video .video_list .list_box .list{
+    width: 30%;
+    margin-bottom: 80px;
+    padding: 0 20px;
+}
+
+.video .video_list .list_box .list .img_box{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.video .video_list .list_box .list1 .img_box{
+    background-image: url(../images/list_icon1.svg);
+}
+
+.video .video_list .list_box .list2 .img_box{
+    background-image: url(../images/list_icon2.svg);
+}
+
+.video .video_list .list_box .list3 .img_box{
+    background-image: url(../images/list_icon3.svg);
+}
+
+.video .video_list .list_box .list4 .img_box{
+    background-image: url(../images/list_icon5.svg);
+}
+
+.video .video_list .list_box .list5 .img_box{
+    background-image: url(../images/list_icon4.svg);
+}
+
+.video .video_list .list_box .list6 .img_box{
+    background-image: url(../images/list_icon6.svg);
+}
+
+
+.video .video_list .list_box .list .text_box{
+    padding: 30px 0;
+}
+
+
+.video .video_list .list_box .list .text_box p:first-child{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.video .video_list .list_box .list .text_box p:first-child::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 15px;
+    background: #1E438A;
+    opacity: .4;
+    left: 0;
+    top: 35%;
+    transition: all .5s;
+    transform: translateY(-50%);
+}
+
+.video .video_list .list_box .list:hover .text_box p:first-child::after{
+    width: 100%;
+}
+
+.video .video_list .list_box .list .text_box p{
+    /* word-break: keep-all; */
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.video .video_list .list_box .list p span{
+    display: block;
+    font-size: 1rem;
+}
+
+.video_why{
+    background-color: #FFFCDC;
+}
+
+.video_top{
+    background-color: #fff;
+}
+
+/* vedio - 컨택트폼 구현(kboard 사용불가) */
+.contact-form{
+    overflow: hidden;
+}
+
+.contact-form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form form .contact-value{
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-form form .contact-value-file{
+    width: 100%;
+}
+.contact-form form .contact-value-file input[type="file"]{
+    height: auto;
+    padding: 0;
+    line-height: normal;
+    font-size: 13px;
+}
+
+.contact-form form .contact-value-content{
+    width: 100%;
+}
+
+.contact-form form .contact-value-content textarea{
+    width: 100%;
+    height: 250px;
+    padding: 20px 15px;
+}
+
+.contact-form form .contact-value-content textarea::placeholder{
+    line-height: 1.6;
+}
+.contact-form form .contact-value input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+.contact-form form .contact-value label{
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #1E438A;
+    font-weight: bold;
+}
+
+.contact-form form .contact-control{
+    margin: auto;
+}
+
+.contact-form form .contact-control button{
+    width: 200px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #1E438A;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.contact-form form .contact-control button:hover{
+    opacity: 0.8;
+}
+
+.contact-form form .terms{
+    width: 100%;
+}
+
+.contact-form form .terms .terms-check{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.contact-form form .terms .terms-check textarea{
+    width:60%;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 20px;
+    line-height: 1.4;
+    white-space: pre-line;
+}
+.contact-form form .terms .terms-check label{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.contact-form form .terms .terms-check input[type="checkbox"]{
+    margin-right: 3px;
+}
+
+
+
+
+/* about us */
+.about_us .about_title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about_us .about_title p{
+    font-size: 50px;
+    position: relative;
+    font-weight: bold;
+    font-family: 'SF_HambakSnow';
+}
+
+
+.about_us .icon_box{
+    width: 110px;
+    height: 110px;
+    margin: 15px auto;
+    margin-bottom: 30px;
+}
+
+.about_us .icon_box img{
+    height: 100%;
+    vertical-align: top;
+}
+
+.about_us .content_wrap{
+    margin-top: 150px;
+}
+
+.about_us .content_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about_us .content_flex .content{
+    width: 40%;
+    margin: 0 30px;
+    margin-bottom: 100px;
+}
+
+.about_us .content_flex .text_box{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about_us .content_flex .text_box p{
+    /* white-space: pre-line; */
+    word-break: keep-all;
+    color: #424242;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+.about_us .content_flex .text_box p:first-child{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* why us */
+
+.why_us{
+    background-color: #EEE2E2;
+}
+
+.video_why{
+    background-color: #FFFCDC;
+}
+
+.why_us .why_wrap{
+    padding: 100px 0 50px;
+}
+
+.why_us .why_title{
+    text-align: center;
+}
+
+.why_us .why_title p:nth-child(1){
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    font-family: 'SF_HambakSnow';
+}
+
+
+.why_us .why_title p:nth-child(2){
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.why_us .why_box{
+    margin-top: 100px;
+
+}
+
+.why_us .why{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.why_us .why2,.why_us .why4{
+    flex-direction: row-reverse;
+}
+
+.why_us .text_box{
+    width: 45%;
+    margin: 0 80px;
+}
+
+.why_us .text_box p{
+    line-height: 1.7;
+    font-size: 18px;
+    word-break: keep-all;
+    font-weight: 300;
+}
+
+.why_us .text_box p:first-child{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.why_us .text_box p span{
+    font-weight: bold;
+}
+
+.why_us .icon_box{
+    width: 250px;
+    /* margin-right: 130px; */
+}
+
+/* .why_us .why2 .icon_box,.why_us .why4 .icon_box{
+    margin-right: 0;
+    margin-left: 130px;
+} */
+
+
+.why_us .icon_box img{
+    width: 100%;
+}
+
+
+
+/* contact */
+
+.contact_us .contact_title{
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'SF_HambakSnow';
+}
+
+.contact_us .contact_title p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.contact_us .contact_box{
+    padding-bottom: 50px;
+
+}
+
+.contact_us .map_box #map{
+    height: 400px;
+    margin-top: 50px;
+}
+
+
+.contact_us .map_box .map_info{
+    padding: 50px 0;
+}
+
+.contact_us .map_box .map_info1{
+    border-bottom: 1px #ccc solid;
+}
+
+.contact_us .map_box .map_info p{
+    font-size: 1.2rem;
+    color: #424242;
+    margin-bottom: 7px;
+}
+
+.contact_us .map_box .map_info p span{
+    font-weight: bold;
+    color: #000;
+}
+
+.contact_us .map_box .map_info1 p:first-child{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact_us .map_box .map_info2 p:first-child{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact_us .form_box{
+    padding-bottom: 30px;
+}
+.contact_us .form{
+    padding-top: 50px;
+}
+
+.contact_us #kboard-contact-form-editor form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact_us #kboard-contact-form-editor .kboard-attr-row{
+    float: none;
+    width: 48%;
+}
+
+.contact_us #kboard-contact-form-editor .kboard-attr-row .attr-name{
+    color: #1E438A;
+}
+
+.contact_us #kboard-contact-form-editor input[type=text],
+.contact_us #kboard-contact-form-editor input[type=email]{
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.contact_us #kboard-contact-form-editor .editor-textarea{
+    border: none;
+    padding: 20px 15px; 
+}
+
+.contact_us #kboard-contact-form-editor .kboard-attr-content,
+.contact_us #kboard-contact-form-editor .kboard-attr-attach{
+    width: 100%;
+}
+
+.contact_us #kboard-contact-form-editor input[type=file]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+}
+
+.term_area{
+    width: 100%;
+    margin: 50px 0;
+}
+
+.term_chk_area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.term_chk_area textarea{
+    width: 60%;
+    margin: 0 auto;
+    /* text-align: center; */
+    font-size: 14px;
+    padding: 15px;
+    height: 100px;
+    line-height: 1.5;
+}
+
+.term_chk_area label{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.term_chk_area label input{
+    vertical-align: middle;
+}
+
+.contact_us #kboard-contact-form-editor .kboard-control{
+    float: none;
+}
+
+.contact_us #kboard-contact-form-editor .kboard-control .left{
+    float: none;
+    position: relative;
+}
+
+.contact_us button.kboard-contact-form-button-large{
+    display: block;
+    margin: auto;
+    background-color: #1E438A !important;
+    padding: 5px 80px;
+    color: #fff !important;
+    border-radius: 52px;
+}
+
+.video_contact{
+    background-color: #FFFCDC;
+}
+
+/* 인재채용 */
+.recruit {
+    background-color: #EEE2E2;
+}
+
+.video_recruit{
+    background-color: #FFFEF5;
+}
+.recruit .recruit_title{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.recruit .recruit_title p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'SF_HambakSnow';
+}
+
+.recruit .recruit_list{
+    padding: 50px 80px;
+    margin: 0 auto; 
+}
+
+.recruit .list_title{
+    text-align: center;
+}
+
+.recruit .list_title p{
+    font-size: 2rem;
+}
+
+.recruit .list_box{
+    padding: 80px 0;
+}
+
+.recruit .list_box .list{
+    border-bottom: 1px #000 solid;
+}
+
+.recruit .list_box .list .recruit_text{
+    padding: 30px 20px;
+    /* border-bottom: 1px #000 solid; */
+}
+
+.recruit .list_box .list .recruit_text:hover{
+    cursor: pointer;
+}
+
+.recruit .list_box .list .recruit_text:hover p{
+    color: #1E438A;
+}
+
+.recruit .list_box .list .recruit_text p{
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: bold;
+    /* transition: all .5s; */
+}
+
+.recruit .list_box .list .recruit_text p::after{
+    content: "+";
+    font-size: 35px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.recruit .list_box .list .recruit_text.active p::after{
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.recruit .text_area{
+    padding: 0 30px;
+    display: none;
+    border-top: 1px #000 solid;
+    background-color: #F7F4F4;
+}
+
+.recruit .video_text{
+    background-color: #FFFCDC;
+}
+
+.recruit .text_area .text{
+    padding: 30px;
+    padding-left: 0;
+    border-bottom: 1px #ddd solid;
+}
+
+.recruit .text_area .text > p{
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.recruit .list .text ul {
+    padding-left: 50px;
+}
+
+.recruit .list .text ul li{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 7px;
+    list-style: disc;
+}
+
+.recruit .list .text ul li span,
+.recruit .list .text p span{
+    display: block;
+    font-size: 1rem;
+    color: red;
+    font-weight: 300;
+}
+
+
+/*media query*/
+
+@media all and  (max-width: 1690px) {
+    .banner_box .left p:nth-child(2){
+        white-space: pre-line;
+    }
+}
+@media all and  (max-width: 1440px) {
+
+    section{
+        padding: 50px 0;
+    }
+    
+    header{
+        width: 85%;
+    }
+
+
+
+    section > div{
+        width: 80%;
+    }
+
+    .serve .gnb li a,
+    .banner_box .left a{
+        font-size: 20px;
+    }
+
+    .banner_box .left p:first-child,
+    .about_us .about_title p,
+    .why_us .why_title p:nth-child(1),
+    .tech_wrap .tech_title p,
+    .process_section .process_title p,
+    .contact_us .contact_title p,
+    .recruit .recruit_title p,
+    .video .video_list .list_title p{
+        font-size: 45px;
+    }
+
+    .banner_box .left p:nth-child(2){
+        font-size: 26px;
+    }
+
+    .banner_box .left p:nth-child(3),
+    .about_us .content_flex .text_box p:first-child{
+        font-size: 23px;
+    }
+
+    .about_us .content_flex .text_box p{
+        font-size: 16px;
+    }
+
+    .why_us .why_title p:nth-child(2),
+    .recruit .list_title p{
+        font-size: 30px;
+    }
+
+    .why_us .why_wrap{
+        padding-top: 50px;
+    }
+
+    .why_us .icon_box{
+        width: 230px;
+    }
+
+    .tech_wrap .icon .title p{
+        font-size: 23px;
+    }
+
+    .process_section .process_list .text_box p:first-child{
+        font-size: 32px;
+    }
+
+    .process_section .process_list .text_box p{
+        font-size: 18px;
+    }
+
+    .tech_wrap .flex_icon{
+        width: 80px;
+        height: 80px;
+    }
+
+    .tech_wrap .icon {
+        margin: 0 60px 90px;
+    }
+
+    .video .video_list .list_box{
+        margin-top: 100px;
+    }
+
+    .video .video_list .list_box .list .text_box p:first-child{
+        font-size: 20px;
+    }
+
+    .video .video_list .list_box .list{
+        padding: 0;
+    }
+
+
+}
+@media all and (max-width: 1250px) {
+    .serve .menu_wrap {
+        width: 47%;
+    }
+
+    .logo_section .left .logo,
+    .logo_section .right .logo{
+        width: 160px;
+    }
+
+    .video_banner .right {
+        width: 47%;
+    }
+
+    .tech_wrap .icon {
+        margin: 0 40px 70px;
+    }
+
+    .recruit .recruit_list{
+        padding: 50px;
+    }
+
+    .banner_box .left{
+        width: 65%;
+        padding: 0;
+    }
+
+    .banner_box .left p:first-child{
+        margin-bottom: 40px;
+    }
+
+    .banner_box .left p:nth-child(2) {
+        font-size: 24px;
+    }
+
+    .banner_box .left p:nth-child(3), .about_us .content_flex .text_box p:first-child {
+        font-size: 21px;
+    }
+
+    .video .video_list .list_box .list .text_box p{
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 1025px) {
+    .serve .menu_wrap {
+        width: 60%;
+    }
+
+    .banner_box .left p:first-child, 
+    .about_us .about_title p, 
+    .why_us .why_title p:nth-child(1), 
+    .tech_wrap .tech_title p, 
+    .process_section .process_title p,
+    .contact_us .contact_title p, .recruit .recruit_title p,
+    .video .video_list .list_title p {
+        font-size: 40px;
+    }
+
+    .video_banner .right {
+        width: 55%;
+    }
+
+    .about_us .content_flex .content{
+        width: 45%;
+        margin: 0 20px 100px;
+    }
+
+    .about_us .icon_box{
+        width: 100px;
+        height: 100px;
+    }
+
+    .why_us .why{
+        justify-content: space-between;
+    }
+
+    .why_us .text_box{
+        width: 55%;
+        margin: 0 50px;
+    }
+
+    .why_us .text_box p:first-child{
+        font-size: 23px;
+    }
+
+    .why_us .text_box p{
+        font-size: 16px;
+    }
+
+    .why_us .icon_box {
+        width: 28%;
+    }
+
+    .tech_wrap .flex_icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .tech_wrap .icon .title p {
+        font-size: 21px;
+    }
+
+    .tech_wrap .icon_list,
+    .about_us .content_wrap{
+        margin-top: 100px;
+    }
+
+    .tech_wrap .icon {
+        margin: 0 30px 50px;
+    }
+
+    .recruit .recruit_list{
+        padding: 30px 0 50px;
+    }
+
+    .why_us .why_title p:nth-child(2), .recruit .list_title p {
+        font-size: 28px;
+    }
+
+    .process_section .process_list .text_box p:first-child{
+        font-size: 28px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .process_section .process_list .text_box p:first-child::before{
+        font-size: 9rem;
+    }
+
+    .term_chk_area textarea{
+        width: 70%;
+        word-break: keep-all;
+        font-size: 13px;
+    }
+
+    .contact_us .map_box .map_info1 p:first-child,
+    .contact_us .map_box .map_info2 p:first-child{
+        font-size: 24px;
+    }
+
+    .contact_us .map_box .map_info p{
+        font-size: 19px;
+    }
+
+
+    .recruit .list_box .list .recruit_text p{
+        font-size: 23px;
+    }
+
+    .recruit .text_area .text > p{
+        font-size: 18px;
+    }
+
+    .recruit .list .text ul li{
+        font-size: 16px;
+    }
+
+    .recruit .list .text ul li span, .recruit .list .text p span{
+        font-size: 15px;
+    }
+
+    .top a{
+        width: 70px;
+        height: 70px;
+    }
+
+    .video .video_list .list_box .list .text_box p:first-child{
+        font-size: 19px;
+    }
+
+    .video .video_list .list_box .list p span{
+        font-size: 15px;
+    }
+
+
+    
+}
+@media all and (max-width: 950px) {
+    header{
+        padding-top: 50px;
+    }
+
+    .serve .gnb li a, .banner_box .left a {
+        font-size: 18px;
+    }
+
+    .banner_box{
+        padding: 30px 0 50px;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .banner_box .left{
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner_box .right{
+        width: 60%;
+        margin-top: 60px;
+    }
+
+    .banner_box .left p:first-child{
+        margin-bottom: 30px;
+    }
+
+    .banner_box .left p:nth-child(2){
+        margin-bottom: 20px;
+    }
+
+    .tech_wrap .icon_list, .about_us .content_wrap{
+        margin-top: 80px;
+    }
+
+    .about_us .content_flex .content{
+        margin: 20px 10px;
+    }
+
+    .logo_section .left .logo,
+    .logo_section .right .logo {
+        width: 150px;
+    }
+
+    .why_us .why_title p:nth-child(2){
+        margin-top: 30px;
+    }
+
+    .video .video_list .list_box .list{
+        width: 45%;
+    }
+
+    .video .video_list .list_box .list .text_box p{
+        word-break: keep-all;
+        text-align: center;
+    }
+}
+
+
+@media all and (max-width: 768px){
+
+    section > div {
+        width: 85%;
+    }
+
+    .serve .pc{
+        display: none;
+    }
+
+    .serve .nav{
+        display: block;
+    }
+
+    .serve header{
+        align-items: center;
+    }
+
+    .serve .menu_btn{
+        /* background: url(../images/menu.svg) no-repeat center / contain; */
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 80px;
+        right: 60px;
+        z-index: 9999;
+    }
+    .serve .menu_btn img{
+        width: 100%;
+    }
+
+    .nav_box{
+        display: none;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: #fff;
+        height: 100%;
+        z-index: 99;
+    }
+
+    body.active{
+        overflow: hidden;
+    }
+
+    .nav_box.active{
+        display: block;
+    }
+
+    .nav_box .menu_wrap{
+        width: 100%;
+    }
+
+    .nav_box .gnb{
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+    }
+
+    .nav_box .gnb li{
+        padding: 20px 0;
+    }
+
+    .nav_box .gnb li a{
+        font-size: 28px;
+    }
+
+
+
+    .logo_section .left .logo,
+    .logo_section .right .logo {
+        width: 120px;
+    }
+
+    .tech_wrap .icon_list .flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tech_wrap .icon {
+        margin: 0 45px 70px;
+    }
+
+    .tech_wrap .flex_icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .video .video_list .list_box .list .img_box{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+@media all and (max-width: 650px){
+
+    header .logo_wrap a{
+        width: 110px;
+    }
+
+    .banner_box .left p:nth-child(2) {
+        font-size: 23px;
+    }
+
+    .banner_box .left p:nth-child(3), .about_us .content_flex .text_box p:first-child {
+        font-size: 19px;
+    }
+
+    .banner_box .left p:first-child,
+    .about_us .about_title p,
+    .why_us .why_title p:nth-child(1),
+    .tech_wrap .tech_title p,
+    .process_section .process_title p,
+    .contact_us .contact_title p, .recruit .recruit_title p,
+    .video .video_list .list_title p {
+        font-size: 38px;
+    }
+
+    .about_us .content_flex .content{
+        margin: 20px 0;
+        width: 50%;
+    }
+
+    .why_us .why_title p:nth-child(2), .recruit .list_title p {
+        font-size: 26px;
+    }
+
+    .why_us .why_title p:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .process_section .process_list .text_box p:first-child::before {
+        font-size: 8.5rem;
+    }
+
+    .process_section .process_list .text_box p:first-child::before{
+        left: -55px;
+    }
+
+    .process_section .list2 .text_box p:first-child::before,
+    .process_section .list4 .text_box p:first-child::before{
+        right: -55px;
+        left: 0;
+    }
+
+    .term_chk_area label{
+        font-size: 13px;
+        white-space: pre-line;
+        line-height: 1.4;
+    }
+    
+    .term_chk_area textarea{
+        padding: 10px;
+        width: 80%;
+    }
+
+    .contact_us #kboard-contact-form-editor input[type=text], .contact_us #kboard-contact-form-editor input[type=email],
+    .contact_us #kboard-contact-form-editor .editor-textarea{
+        font-size: 14px;
+    }
+
+    .recruit .recruit_list {
+        padding: 20px 0 50px;
+    }
+
+    .recruit .list_box .list .recruit_text{
+        padding: 25px 20px;
+    }
+
+    .recruit .list_box .list .recruit_text p {
+        font-size: 21px;
+    }
+
+    .recruit .list_box .list .recruit_text p::after{
+        font-size: 30px;
+    }
+
+    .recruit .text_area{
+        padding: 0 20px;
+    }
+
+    .logo_section .left,
+    .logo_section .right{
+        animation-duration: 20s;
+    }
+
+    .process_section .process_list .text_box p:first-child{
+        font-size: 24px;
+    }
+
+    .process_section .process_list .text_box p {
+        font-size: 16px;
+    }
+
+    .video .video_list .list_box{
+        margin-top: 80px;
+    }
+
+    .video .video_list .list_box .list .text_box p {
+        font-size: 15px;
+    }
+}
+
+
+@media all and (max-width: 550px){
+    .serve .menu_btn{
+        right: 40px;
+        width: 33px;
+        height: 33px;
+    }
+
+    .banner_box .left p:first-child, 
+    .about_us .about_title p, 
+    .why_us .why_title p:nth-child(1), 
+    .tech_wrap .tech_title p, .process_section .process_title p, 
+    .contact_us .contact_title p, 
+    .recruit .recruit_title p,
+    .video .video_list .list_title p {
+        font-size: 35px;
+    }
+
+    .banner_box .left p:nth-child(2) {
+        font-size: 20px;
+    }
+
+    .banner_box .left p:nth-child(3), .about_us .content_flex .text_box p:first-child {
+        font-size: 18px;
+    }
+
+    .banner_box .right{
+        width: 80%;
+    }
+
+    .about_us .content_flex .content{
+        width: 100%;
+    }
+
+    .logo_section{
+        padding: 50px 0 80px;
+    }
+
+    .logo_section .right{
+        margin-top: 30px;
+    }
+
+    .logo_section .left .logo,
+    .logo_section .right .logo{
+        margin: 0 10px;
+    }
+
+    .why_us .why{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .why_us .icon_box {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+
+    .why_us .text_box{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .tech_wrap .flex_icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .tech_wrap .icon {
+        margin: 0 30px 70px;
+    }
+
+    .process_section .process_list {
+        padding: 80px 0;
+    }
+
+    .contact_us #kboard-contact-form-editor .kboard-attr-row{
+        width: 100%;
+    }
+
+    .contact_us button.kboard-contact-form-button-large{
+        padding: 5px 65px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .contact_us .map_box .map_info1 p:first-child, .contact_us .map_box .map_info2 p:first-child {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contact_us .map_box .map_info p {
+        font-size: 16px;
+    }
+
+    .contact_us .map_box .map_info {
+        padding: 40px 0;
+    }
+
+    .why_us .why_title p:nth-child(2), .recruit .list_title p {
+        font-size: 22px;
+    }
+
+    .term_chk_area textarea {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .why_us .text_box p:first-child {
+        font-size: 20px;
+    }
+
+    .tech_wrap .icon .title p {
+        font-size: 19px;
+    }
+
+    .process_section .process_list .text_box p:first-child::before {
+        font-size: 8rem;
+    }
+
+
+
+    .contact_us .form{
+        padding-top: 0;
+    }
+
+    .contact_us button.kboard-contact-form-button-large{
+        font-size: 14px;
+    }
+
+    .recruit .list_box .list .recruit_text {
+        padding: 20px 20px;
+    }
+
+    .recruit .list_box .list .recruit_text p::after {
+        font-size: 28px;
+    }
+
+    .recruit .text_area .text > p {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .recruit .list .text ul li {
+        font-size: 15px;
+        margin-bottom: 5px;
+        line-height: 1.4;
+    }
+
+    .recruit .list .text ul li span, .recruit .list .text p span {
+        font-size: 13px;
+    }
+
+    .recruit .text_area .recruit_process p:nth-child(2){
+        font-size: 15px;
+    }
+
+    .recruit .text_area .decript p{
+        font-size: 15px;
+        word-break: keep-all;
+    }
+
+    .top a {
+        width: 55px;
+        height: 55px;
+    }
+
+    .top a::after{
+        width: 25px;
+        height: 40px;
+    }
+
+
+    .video .video_list .list_box .list {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .video .video_list .list_box .list6{
+        margin-bottom: 30px;
+    }
+
+    
+
+}
+
+@media all and (max-width:480px){
+
+    header .logo_wrap a {
+        width: 100px;
+    }
+
+    .serve .menu_btn{
+        width: 28px;
+        height: 25px;
+    }
+
+    .nav_box .gnb li a {
+        font-size: 25px;
+    }
+
+    .banner_box .left p:first-child,
+    .about_us .about_title p, 
+    .why_us .why_title p:nth-child(1),
+    .tech_wrap .tech_title p, .process_section .process_title p,
+    .contact_us .contact_title p, .recruit .recruit_title p,
+    .video .video_list .list_title p {
+        font-size: 32px;
+    }
+
+    .banner_box .left p:first-child{
+        margin-bottom: 20px;
+    }
+
+    .banner_box .left p:nth-child(2) {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .banner_box .left p:nth-child(2) {
+        
+    }
+
+    .banner_box .left p:nth-child(3), .about_us .content_flex .text_box p:first-child {
+        font-size: 16px;
+    }
+
+    .banner_box .left p:nth-child(3){
+        margin-bottom: 20px;
+    }
+
+    .banner_box .left a{
+        font-size: 17px;
+        border-radius: 9px;
+    }
+
+    .about_us .content_flex .text_box{
+        width: 100%;
+    }
+
+    .why_us .why_title p:nth-child(2), .recruit .list_title p {
+        font-size: 20px;
+    }
+
+    .why_us .text_box p {
+        font-size: 15px;
+    }
+
+    .why_us .why_box {
+        margin-top: 60px;
+    }
+
+    .tech_wrap .icon_list, .about_us .content_wrap {
+        margin-top: 60px;
+    }
+
+    .tech_wrap .icon{
+        margin-bottom: 50px;
+    }
+
+    .tech_wrap .flex_icon{
+        width: 60px;
+        height: 60px;
+    }
+
+    .video .video_list .list_box .list .img_box {
+        width: 90px;
+        height: 90px;
+    }
+
+    .video .video_list .list_box .list p span {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width:425px){
+    .banner_box .left p:first-child,
+    .about_us .about_title p,
+    .why_us .why_title p:nth-child(1), 
+    .tech_wrap .tech_title p, .process_section .process_title p,
+    .contact_us .contact_title p, .recruit .recruit_title p,
+    .video .video_list .list_title p {
+        font-size: 30px;
+    }
+
+    .banner_box .left p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .banner_box .right {
+        width: 85%;
+    }
+
+    .about_us .icon_box {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 15px;
+    }
+    
+
+    .about_us .content_flex .text_box p {
+        font-size: 14px;
+    }
+
+    .tech_wrap .icon_list, .about_us .content_wrap{
+        margin-top: 40px;
+    }
+
+    .why_us .icon_box{
+        width: 30%;
+    }
+
+    .why_us .why_title p:nth-child(2), .recruit .list_title p {
+        font-size: 18px;
+        
+    }
+
+    .why_us .why_title p:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .why_us .text_box p:first-child {
+        font-size: 18px;
+    }
+
+    .why_us .text_box p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .why_us .why4{
+        margin-bottom: 0;
+    }
+
+    .tech_wrap .icon_list .flex{
+        justify-content: space-around;
+    }
+
+    .tech_wrap .icon .title p {
+        font-size: 17px;
+    }
+
+    .tech_wrap .icon {
+        margin: 0 20px 50px;
+    }
+
+    .process_section .process_list .text_box p:first-child {
+        font-size: 20px;
+    }
+
+    .process_section .process_list .text_box p:first-child::before {
+        font-size: 7rem;
+    }
+
+    .process_section .process_list .text_box p:first-child::before {
+        left: -30px;
+    }
+
+    .process_section .list2 .text_box p:first-child::before, .process_section .list4 .text_box p:first-child::before{
+        right: -32px;
+    }
+
+    .process_section .process_list .text_box p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .process_section .list5{
+        padding-bottom: 50px;
+    }
+
+    .contact_us #kboard-contact-form-editor input[type=text], .contact_us #kboard-contact-form-editor input[type=email]{
+        height: 40px;
+        line-height: 40px;
+        padding: 7px;
+    }
+
+    .contact_us #kboard-contact-form-editor .kboard-attr-row {
+        padding: 7px 0;
+    }
+
+    .contact_us #kboard-contact-form-editor .kboard-attr-row .attr-name{
+        font-size: 15px;
+    }
+
+    .contact_us #kboard-contact-form-editor input[type=text], .contact_us #kboard-contact-form-editor input[type=email], .contact_us #kboard-contact-form-editor .editor-textarea {
+        font-size: 13px;
+    }
+
+    .contact_us #kboard-contact-form-editor .editor-textarea{
+        padding: 15px 10px;
+    }
+
+    .contact_us #kboard-contact-form-editor input[type=file]{
+        font-size: 12px;
+    }
+
+    .term_area{
+        margin-bottom: 10px;
+    }
+
+    .term_chk_area label{
+        font-size: 11px;
+        word-break: keep-all;
+    }
+
+    .contact_us .map_box #map{
+        margin-top: 30px;
+    }
+
+    .contact_us .map_box .map_info1 p:first-child, .contact_us .map_box .map_info2 p:first-child{
+        font-size: 18px;
+    }
+
+    .contact_us .map_box .map_info p {
+        font-size: 14px;
+    }
+
+    .contact_us .map_box .map_info {
+        padding: 30px 0;
+    }
+
+    .contact_us .contact_box{
+        padding-bottom: 0;
+    }
+
+    .recruit .recruit_title{
+        padding-top: 15px;
+    }
+
+    .recruit .recruit_list{
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    
+
+    .recruit .list_box .list .recruit_text p {
+        font-size: 18px;
+    }
+
+    .recruit .list_box{
+        padding: 50px 0;
+    }
+
+    .recruit .list_box .list .recruit_text p::after {
+        font-size: 25px;
+    }
+
+    .recruit .text_area {
+        padding: 0 15px;
+    }
+
+    .recruit .text_area .text{
+        padding: 20px;
+        padding-left: 0;
+    }
+
+    .recruit .text_area .text > p{
+        font-size: 15px;
+    }
+
+    .recruit .list .text ul {
+        padding-left: 35px;
+    }
+
+    .recruit .list .text ul li{
+        font-size: 13px;
+    }
+
+    .recruit .text_area .recruit_process p:nth-child(2) {
+        font-size: 14px;
+        word-break: keep-all;
+    }
+
+    .recruit .list .text ul li span, .recruit .list .text p span {
+        font-size: 11px;
+    }
+
+    .recruit .text_area .text > p {
+        font-size: 13px;
+    }
+
+    .video .video_list .list_box{
+        margin-top: 50px;
+    }
+
+    .video .video_list .list_box .list .img_box{
+        width: 80px;
+        height: 80px;
+    }
+
+    .video .video_list .list_box .list .text_box{
+        padding: 15px 0;
+    }
+
+    .video .video_list .list_box .list .text_box p:first-child {
+        font-size: 18px;
+    }
+
+    .video .video_list .list_box .list p span {
+        font-size: 13px;
+    }
+    
+    
+    .video .video_list .list_box .list .text_box p {
+        font-size: 14px;
+    }
+    
+}
+
+@media all and (max-width:375px){
+
+    .serve .menu_btn{
+        right: 28px;
+    }
+
+    section > div {
+        width: 90%;
+    }
+
+    .tech_banner{
+        padding-top: 30px;
+    }
+
+    .banner_box{
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    .banner_box .left p:first-child, .about_us .about_title p, .why_us .why_title p:nth-child(1), .tech_wrap .tech_title p, .process_section .process_title p, .contact_us .contact_title p, .recruit .recruit_title p,
+    .video .video_list .list_title p {
+        font-size: 26px;
+    }
+
+    .banner_box .left p:first-child {
+        margin-bottom: 10px;
+    }
+
+    .banner_box .left p:nth-child(2) {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .banner_box .left p:nth-child(3) {
+        font-size: 14px;
+    }
+
+    .banner_box .left a{
+        font-size: 16px;
+    }
+
+    .about_us .about_title{
+        padding-top: 20px;
+    }
+
+    .tech_wrap .icon_list, .about_us .content_wrap{
+        margin-top: 25px;
+    }
+
+    .about_us .icon_box{
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .about_us .content_flex .text_box p:first-child{
+        font-size: 15px;
+    }
+
+    .about_us .content_flex .text_box p {
+        font-size: 12px;
+    }
+
+    .logo_section .left .logo, .logo_section .right .logo {
+        width: 80px;
+    }
+
+    .why_us .why_wrap{
+        padding-top: 20px;
+    }
+
+    .why_us .why{
+        margin-bottom: 50px;
+    }
+
+    .why_us .why_box {
+        margin-top: 40px;
+    }
+
+    .why_us .icon_box {
+        width: 26%;
+    }
+
+    .why_us .text_box p:first-child {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+
+    .why_us .text_box p{
+        font-size: 12px;
+    }
+
+    .tech_wrap .flex_icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .tech_wrap .icon .title p {
+        font-size: 15px;
+    }
+
+
+
+    .process_section .process_title{
+        padding: 30px 0;
+    }
+
+    .process_section .process_box{
+        width: 85%;
+    }
+
+    .process_section .process_list {
+        padding: 50px 0;
+    }
+
+    .process_section .process_list .text_box p{
+        font-size: 12px;
+    }
+
+    .process_section .process_list .text_box p:first-child::before {
+        font-size: 5rem;
+    }
+    
+
+    .process_section .process_list .text_box p:first-child {
+        font-size: 18px;
+    }
+
+    .process_section .process_list .text_box p:first-child::before {
+        left: -20px;
+    }
+
+    .process_section .list2 .text_box p:first-child::before,
+    .process_section .list4 .text_box p:first-child::before {
+        right: -10px;
+    }
+
+    .contact_us #kboard-contact-form-editor .kboard-attr-row .attr-name {
+        font-size: 14px;
+    }
+
+    .contact_us #kboard-contact-form-editor input[type=text], .contact_us #kboard-contact-form-editor input[type=email], .contact_us #kboard-contact-form-editor .editor-textarea {
+        font-size: 12px;
+    }
+
+    .contact_us #kboard-contact-form-editor input[type=file] {
+        font-size: 11px;
+    }
+
+    .term_chk_area textarea {
+        font-size: 10px;
+    }
+
+    .contact_us button.kboard-contact-form-button-large{
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+
+    .contact_us .map_box .map_info1 p:first-child, .contact_us .map_box .map_info2 p:first-child {
+        font-size: 16px;
+    }
+
+    .contact_us .map_box .map_info p {
+        font-size: 13px;
+    }
+
+    .contact_us .map_box .map_info2{
+        padding-bottom: 0;
+    }
+
+    .why_us .why_title p:nth-child(2), .recruit .list_title p {
+        font-size: 16px;
+    }
+
+    .recruit .list_box .list .recruit_text{
+        padding: 15px;
+    }
+
+
+    .recruit .list_box .list .recruit_text p {
+        font-size: 16px;
+    }
+
+    .recruit .list_box .list .recruit_text p::after {
+        font-size: 22px;
+    }
+
+    .recruit .text_area .text > p{
+        font-size: 12px;
+    }
+
+    .recruit .list .text ul li {
+        font-size: 11px;
+    }
+
+    .recruit .text_area .recruit_process p:nth-child(2){
+        font-size: 13px;
+    }
+
+    .recruit .list .text ul li span, .recruit .list .text p span {
+        font-size: 10px;
+    }
+
+    .top a {
+        width: 45px;
+        height: 45px;
+    }
+
+    .top a::after {
+        width: 20px;
+        height: 30px;
+    }
+
+    .video .video_list .list_box .list .text_box p:first-child{
+        font-size: 16px;
+    }
+
+    .video .video_list .list_box .list p span {
+        font-size: 11px;
+    }
+
+    .video .video_list .list_box .list .text_box p {
+        font-size: 12px;
+    }
+
+    .video .video_list .list_box .list{
+        margin-bottom: 30px;
+    }
+
+
+    .video .video_list .list_box .list .img_box {
+        width: 70px;
+        height: 70px;
+    }
+
+    .video .video_list .list_box .list .text_box{
+        padding: 10px 0;
+    }
+}
+
+
+@media all and (max-width:320px){
+    header .logo_wrap a {
+        width: 90px;
+    }
+
+    .serve .menu_btn {
+        width: 24px;
+        height: 19px;
+    }
+
+    .banner_box .left p:first-child, .about_us .about_title p, 
+    .why_us .why_title p:nth-child(1), .tech_wrap .tech_title p, 
+    .process_section .process_title p, .contact_us .contact_title p, 
+    .recruit .recruit_title p, .video .video_list .list_title p {
+        font-size: 22px;
+    }
+
+    .banner_box .left p:nth-child(2){
+        font-size: 13px;
+        word-break: keep-all;
+    }
+
+    .banner_box .left p:nth-child(3) {
+        font-size: 11px;
+    }
+
+    .banner_box .left a {
+        font-size: 14px;
+    }
+
+    .about_us .icon_box{
+        width: 60px;
+        height: 60px;
+    }
+
+    .about_us .content_flex .text_box p:first-child {
+        font-size: 14px;
+    }
+
+    .about_us .content_flex .text_box p {
+        font-size: 11px;
+    }
+
+    .logo_section{
+        padding: 0 0 60px;
+    }
+
+    .logo_section .left .logo, .logo_section .right .logo {
+        width: 70px;
+    }
+
+    .why_us .why_title p:nth-child(2), .recruit .list_title p {
+        font-size: 14px;
+    }
+
+    .why_us .text_box p:first-child{
+        font-size: 14px;
+    }
+
+    .why_us .text_box p {
+        font-size: 10px;
+    }
+
+
+    .why_us .icon_box {
+        width: 24%;
+        margin-bottom: 10px;
+    }
+
+    .why_us .why4{
+        margin-bottom: 20px;
+    }
+
+    .why_us .why_wrap{
+        padding-bottom: 20px;
+    }
+
+    .tech_wrap .icon{
+        margin: 0 20px 30px;
+    }
+
+    .tech_wrap .flex_icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .process_section .process_list .text_box p:first-child {
+        font-size: 15px;
+    }
+
+    .process_section .process_list .text_box p {
+        font-size: 10px;
+    }
+
+    .process_section .list5{
+        padding-bottom: 20px;
+    }
+
+    .contact_us .contact_title{
+        padding: 30px 0;
+    }
+
+    .contact_us #kboard-contact-form-editor .kboard-attr-row .attr-name {
+        font-size: 12px;
+    }
+
+    .contact_us #kboard-contact-form-editor input[type=text], .contact_us #kboard-contact-form-editor input[type=email]{
+        height: 33px;
+        line-height: 33px;
+    }
+
+    .contact_us #kboard-contact-form-editor input[type=text], .contact_us #kboard-contact-form-editor input[type=email], .contact_us #kboard-contact-form-editor .editor-textarea {
+        font-size: 10px;
+    }
+
+    .contact_us #kboard-contact-form-editor .editor-textarea{
+        height: 150px;
+    }
+
+    .term_area{
+        margin-top: 30px;
+    }
+
+    .term_chk_area label{
+        font-size: 10px;
+    }
+
+    .contact_us .map_box .map_info1 p:first-child, .contact_us .map_box .map_info2 p:first-child {
+        font-size: 14px;
+    }
+
+    .contact_us .map_box .map_info p {
+        font-size: 11px;
+    }
+
+    .recruit .list_box{
+        padding: 30px 0;
+    }
+
+    .recruit .list_box .list .recruit_text p {
+        font-size: 14px;
+    }
+
+    .recruit .list_box .list .recruit_text p::after {
+        font-size: 20px;
+    }
+
+    .recruit .list .text ul {
+        padding-left: 24px;
+    }
+
+    .top a {
+        width: 45px;
+        height: 45px;
+    }
+
+    .top a::after {
+        width: 20px;
+        height: 35px;
+    }
+
+
+    .video .video_list .list_box .list .text_box p:first-child {
+        font-size: 14px;
+    }
+
+    .video .video_list .list_box .list p span {
+        font-size: 10px;
+    }
+
+    .video .video_list .list_box .list .text_box p {
+        font-size: 11px;
+    }
+
+    .video .video_list .list_box .list .img_box {
+        width: 60px;
+        height: 60px;
+        
+    }
+}
